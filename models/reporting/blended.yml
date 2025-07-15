@@ -1,1 +1,8 @@
 version: 2
+
+sources:
+  - name: gsheet_raw
+    schema: gsheet_raw
+    tables:
+      - name: tiktok_gmv_insights
+        identifier: tiktok_gmv_insights
